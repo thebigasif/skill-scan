@@ -1,0 +1,13 @@
+{
+  "name": "skill-scan",
+  "version": "0.1.0",
+  "description": "Scan a Claude / agent skill (SKILL.md folder) for hidden text, remote scripts, secret reads and prompt-injection lines before you install it.",
+  "type": "module",
+  "bin": { "skill-scan": "bin/skill-scan.js" },
+  "files": ["bin", "rules.js"],
+  "keywords": ["claude", "claude-skills", "agent-skills", "security", "prompt-injection", "mcp", "scanner"],
+  "homepage": "https://mcp.market/skills",
+  "repository": "github:thebigasif/skill-scan",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
